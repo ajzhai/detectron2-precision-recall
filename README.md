@@ -2,7 +2,7 @@
 
 This is a lightweight codebase for conducting precision-recall analysis for models trained in [detectron2](https://github.com/facebookresearch/detectron2). The detectron2 library allows for evaluating average precision (AP) metrics but does not allow for accessing individual precision/recall values. This repo will help you access those values, plot precision-recall curves, and select a score (confidence) threshold suitable for your application.
 
-<img src="docs/example_plot.png" alt="example_plot" width="268"/>
+<img src="docs/example_plot.png" alt="example_plot" width="536"/>
 
 ## Requirements
 If you have an environment with [detectron2](https://github.com/facebookresearch/detectron2) installed, there are **no additional dependencies required**. Simply clone or fork this repo.
